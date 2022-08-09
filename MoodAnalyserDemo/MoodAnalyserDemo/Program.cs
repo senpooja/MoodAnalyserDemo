@@ -1,12 +1,13 @@
 ﻿using System;
-namespace MoodAnalyserProblems
+namespace MoodAnalyser
 {
-    class program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Mood Analyser Problem Program");
-            Console.ReadLine();
+            Console.WriteLine("Welcome To Mood Analyser Test Case");
+            MoodAnalysing mood = new MoodAnalysing("I Am Happy");
+            Console.WriteLine(mood.AnalyseMood());
         }
     }
 }
